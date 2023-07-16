@@ -8,8 +8,8 @@ const ContactInfo = () => {
             <ContactCard icon={<FaPhone size={40} />} children={['US: 312-998-5441', 'UK: 07933 119784']} />
 
             <div className="contact-links">
-                <a href="https://www.linkedin.com/in/hashirshah/" target='_blank'> <FaLinkedin size={80} /> </a>
-                <a href="https://github.com/HashMaster02" target='_blank'> <FaSquareGithub size={80} /> </a>
+                <a href="https://www.linkedin.com/in/hashirshah/" target='_blank' rel='noreferrer'> <FaLinkedin size={80} /> </a>
+                <a href="https://github.com/HashMaster02" target='_blank' rel='noreferrer'> <FaSquareGithub size={80} /> </a>
             </div>
         </div>
     )
