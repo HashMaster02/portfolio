@@ -273,11 +273,12 @@ header {
 }
 
 .project-card {
+  width: fit-content;
+  max-width: 75rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  max-width: 75rem;
 }
 
 .project-description {
@@ -290,7 +291,9 @@ header {
   display: grid;
   gap: 1.5rem;
   text-align: center;
+  word-break: break-word;
 }
+
 
 .project-description a {
   color: var(--clr-accent);
@@ -315,6 +318,8 @@ header {
   list-style: none;
   font-size: var(--fs-small);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.75rem;
 }
 
@@ -389,6 +394,10 @@ header {
 
   .navbar ul li:not(:last-child) {
     display: initial;
+  }
+
+  .skill-list ul {
+    justify-content: flex-start;
   }
 
 }
