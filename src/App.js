@@ -19,8 +19,8 @@ function App() {
           'Additionally, I have a deep-rooted interest in productivity and consider myself a philomath. I have helped countless people in my life achieve academic success and unlock their potential to learn and grow their skillset and adopt a growth mindset.',
           'I am currently studying at Illinois Institute of Technology in Chicago and am available for internships in summer in both the US and the UK.']}/>
         } />
-        <Section title='Skills' id='skills' children={<SkillCardFrame />} />
         <Section title='Projects' id='projects' children={<ProjectCardFrame />} />
+        <Section title='Skills' id='skills' children={<SkillCardFrame />} />
         <Section title='Contact' id='contact' children={<ContactInfo />} />
 
       </div>

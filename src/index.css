@@ -260,8 +260,8 @@ header {
 }
 
 .skill-logo img {
-  height: 100%;
-  object-fit: contain;
+  /* height: 100%; */
+  /* object-fit: contain; */
 }
 
 .skill-card:hover {
@@ -339,7 +339,7 @@ header {
   font-size: var(--fs-regular);
 }
 
-.contact-frame > *:not(:nth-child(1)) {
+.contact-frame>*:not(:nth-child(1)) {
   margin-top: 2rem;
 }
 
@@ -358,7 +358,7 @@ header {
   line-break: anywhere;
 }
 
-.contact-card > * {
+.contact-card>* {
   display: block;
 }
 
