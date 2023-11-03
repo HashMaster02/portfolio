@@ -15,11 +15,11 @@
   --fw-semibold: 500;
   --fw-bold: 600;
 
-  --fs-extra-large: 5rem;
-  --fs-large: 3rem;
-  --fs-medium: 2rem;
-  --fs-regular: 1.2rem;
-  --fs-small: 1rem;
+  --fs-extra-large: 3rem;
+  --fs-large: 2rem;
+  --fs-medium: 1.5rem;
+  --fs-regular: 1rem;
+  --fs-small: 0.75rem;
 
 }
 
@@ -62,7 +62,7 @@ body {
 .section {
   background-color: var(--clr-primary);
   width: 100%;
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -371,6 +371,13 @@ header {
 /* Desktop */
 @media (min-width: 56.25em) {
 
+  :root {
+    --fs-extra-large: 4rem;
+    --fs-large: 3rem;
+    --fs-medium: 2rem;
+    --fs-regular: 1.2rem;
+    --fs-small: 1rem;
+  }
   .section {
     display: block;
     padding: 7.25rem;
